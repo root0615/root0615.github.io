@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: bugCatchMe (엔지니어 log) # the main title
+title: bugCatchMe # the main title
 
 tagline: 인생이 편해졌으면 하는 직장인의 일지 # it will display as the subtitle
 
