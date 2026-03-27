@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: bugCatchMe # the main title
 
-tagline: 인생이 편해졌으면 하는 직장인의 일지 # it will display as the subtitle
+tagline: 버그한테 잡혀산다. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -29,7 +29,7 @@ github:
   username: root0615 # change to your GitHub username
 
 twitter:
-  username: None # change to your Twitter username
+  username: "" # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -39,7 +39,7 @@ social:
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/root0615 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
