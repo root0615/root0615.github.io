@@ -48,7 +48,7 @@ C:\fastapi\
 ---
 다시 한번 말씀드리지만 이게 정답이 아니라는 점 강조 한번 더 하겠습니다.<br> 그만하라고요? 알겠습니다.<br>
 아 그리고 logger의 경우 제가 저번에 썼던 글 그대로 사용한거니 참고하시면 되겠습니다.<br>
-[참조] <https://root0615.github.io/posts/2-python-logger/><br>
+[참조] <https://root0615.github.io/posts/python-logger><br>
 
 ## 📄 코드
 가장 중요한 역할을 하는 main.py 파일만 확인해보면 될것 같습니다.
