@@ -1,7 +1,7 @@
 ---
-title: "[python] matplotlib에서 mplcursors를 사용해서 포인트 팝업창 띄우기"
+title: "[Python] matplotlib에서 mplcursors를 사용해서 포인트 팝업창 띄우기"
 date: 2026-03-25
-categories: [python]
+categories: [Python]
 tags: [matplotlib, mplcursors]
 ---
 

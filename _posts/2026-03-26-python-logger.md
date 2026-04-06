@@ -1,7 +1,7 @@
 ---
-title: "[python] print 말고 logging 사용해볼까?"
+title: "[Python] print 말고 logging 사용해볼까?"
 date: 2026-03-26
-categories: [python]
+categories: [Python]
 tags: [logging, 파이썬로그]
 ---
 
