@@ -1,5 +1,5 @@
 ---
-title: "[Python] LLM, RAG 이해하기 쉽게 접근해보자 2편 + Chunking에 대해"
+title: "[Python] LLM, RAG 이해하기 쉽게 접근해보자 2편"
 date: 2026-04-26
 categories: [Python]
 tags: [LLM, RAG, Chunking, Chromadb, SentenceTransformer]
