@@ -1,6 +1,6 @@
 ---
 title: "[Python] LLM, RAG 이해하기 쉽게 접근해보자 1편"
-date: 2026-04-26
+date: 2026-04-20
 categories: [Python]
 tags: [LLM, RAG, Groq]
 ---
