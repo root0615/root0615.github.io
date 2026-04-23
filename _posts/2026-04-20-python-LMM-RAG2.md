@@ -1,11 +1,11 @@
 ---
-title: "[Python] LLM, RAG 이해하기 쉽게 접근해보자 2편"
+title: "[Python] RAG, Chunking, Chromadb, SentenceTransformer 사용 기록"
 date: 2026-04-20
 categories: [Python]
 tags: [LLM, RAG, Chunking, Chromadb, SentenceTransformer]
 ---
 
-[1편]<https://root0615.github.io/posts/python-LMM-RAG1/><br>
+[LLM]<https://root0615.github.io/posts/python-LMM-RAG1/><br>
 
 ## 🔍 RAG(Retrieval-Augmented Generation, 검색 증강 생성)이 무엇이냐?
 > LLM의 한계를 보완하기 위해, 외부 데이터를 검색해서 LLM에게 제공하는 기법입니다.
