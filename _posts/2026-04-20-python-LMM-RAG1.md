@@ -5,8 +5,6 @@ categories: [Python]
 tags: [LLM, RAG, Groq]
 ---
 
-[2편]<https://root0615.github.io/posts/python-LMM-RAG2/><br>
-
 일단 두 개의 개념부터 잡고 가겠습니다.
 
 ## 🔍 LLM(Large Language Model)이 무엇이냐?
@@ -253,4 +251,4 @@ messages 리스트 (매 요청마다 통째로 전송)
 틀린 내용이 있다면 항상 말씀부탁드립니다.<br>
 오늘도 화이팅입니다!!<br>
 
-[2편]<https://root0615.github.io/posts/python-LMM-RAG2/><br>
+[RAG]<https://root0615.github.io/posts/python-LMM-RAG2/><br>

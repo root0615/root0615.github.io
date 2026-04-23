@@ -5,8 +5,7 @@ categories: [Pytorch]
 tags: [Layer, nn.BatchNorm2d, nn.LayerNorm, nn.GroupNorm, nn.InstanceNorm2d]
 ---
 
-[링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
-[링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
+
 
 ## 🔍 nn.BatchNorm2d
 미니배치 전체에 걸쳐 채널별로 정규화합니다.<br>
@@ -294,3 +293,5 @@ class StyleTransferBlock(nn.Module):
 뭔가 딱 이해하기 쉽게 누가 설명 좀 해줬으면 좋겠어요 ㅠ.<br>
 아무튼 오늘도 화이팅입니다!!<br>
 
+[링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
+[링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>

@@ -5,10 +5,6 @@ categories: [Pytorch]
 tags: [Layer, nn.MaxPool2d, nn.AvgPool2d, nn.AdaptiveAvgPool2d, nn.AdaptiveMaxPool2d, nn.MaxPool1d, nn.AvgPool1d]
 ---
 
-[링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
-[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>
-
-
 ## 🔍 nn.MaxPool2d
 지정한 윈도우 안에서 최댓값만 뽑아 공간 크기를 줄이는 레이어입니다.<br>
 CNN에서 가장 널리 쓰이는 다운샘플링 방법이에요.<br>
@@ -204,3 +200,7 @@ text_model = nn.Sequential(
 이렇게 글을 작성해놓고 이해한 내용으로 글을 쓰다보면 머릿속에 각인되지 않을까 싶습니다.<br>
 오늘도 열심히 사시느라 고생이 많으십니다.<br>
 모든일 잘 풀리길 기도해드릴게요!<br>
+
+
+[링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
+[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>

@@ -5,8 +5,6 @@ categories: [Python]
 tags: [LLM, RAG, Chunking, Chromadb, SentenceTransformer]
 ---
 
-[LLM]<https://root0615.github.io/posts/python-LMM-RAG1/><br>
-
 ## 🔍 RAG(Retrieval-Augmented Generation, 검색 증강 생성)이 무엇이냐?
 > LLM의 한계를 보완하기 위해, 외부 데이터를 검색해서 LLM에게 제공하는 기법입니다.
 
@@ -542,4 +540,4 @@ RAG와 chunking까지 알아봤습니다.<br>
 오늘도 응원하겠습니다.<br>
 화이팅입니다!!<br>
 
-[1편]<https://root0615.github.io/posts/python-LMM-RAG1/><br>
+[LLM]<https://root0615.github.io/posts/python-LMM-RAG1/><br>

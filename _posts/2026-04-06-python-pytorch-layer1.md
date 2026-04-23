@@ -5,9 +5,6 @@ categories: [Pytorch]
 tags: [Layer, nn.Linear, nn.Conv1d, nn.Conv2d, nn.Conv3d, nn.ConvTranspose2d]
 ---
 
-[링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
-[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>
-
 ## 🔍 nn.Linear
 완전 연결층(Fully Connected Layer) -- 입력의 모든 뉴런이 출력의 모든 뉴런과 연결됩니다.
 > 입력 벡터 x에 가중치 행렬 W를 곱하고 편향 b를 더하는 연산입니다.<br>
@@ -314,3 +311,5 @@ generator = nn.Sequential(
 보시고 도움이 되었으면 좋겠습니다.<br>
 오늘도 화이팅입니다!!<br>
 
+[링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
+[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>
