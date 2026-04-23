@@ -24,7 +24,7 @@ tags: [FastAPI, Model Serving, CNNAutoencoder, Uvicorn, Pyinstaller]
 코드를 보기 전에 먼저 구조를 먼저 소개하고 가는게 이해하기 편할 것 같아 이미지를 통해 말씀드리겠습니다.
 
 ## 📝 작업구조
-`이게 정답은 아니니까 알아서 구조는 짜셔야합니다!` <br>손재주가 없어서 `Claude`님의 도움을 200% 받아 이미지를 구현해보았습니다.
+`이게 정답은 아니니까 알아서 구조는 짜셔야합니다!`
 
 ![FastAPI 작업 구조](/assets/img/python/FastAPI_modelServing_architecture.png)
 

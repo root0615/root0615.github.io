@@ -15,12 +15,6 @@ tags: [Layer, nn.Linear, nn.Conv1d, nn.Conv2d, nn.Conv3d, nn.ConvTranspose2d]
 Pytorch의 torch.nn 모듈에서 제공하는 Linear와 Convolutional 레이어만 먼저 알아보겠습니다.<br>
 다른 건 다음 게시물에 작성하려고 합니다<br>
 
-## ⚠️ 공부 목적으로 미리 작성해놓은 글입니다. 
-Claude의 도움을 받아 작성했으므로 테스트 해보지 못한 코드이기에 틀릴 수 있다는 점 양해부탁드립니다.<br>
-만약 글을 읽으신다면, 감안하시고 참고만 하시길 부탁드립니다.<br>
-지속적으로 내용 확인하고 글을 수정할 생각입니다.<br>
-그리고 제가 이해한 내용을 쉽게 풀어쓰려 노력했습니다. <br>
-
 ## 🔍 nn.Linear
 완전 연결층(Fully Connected Layer) -- 입력의 모든 뉴런이 출력의 모든 뉴런과 연결됩니다.
 > 입력 벡터 x에 가중치 행렬 W를 곱하고 편향 b를 더하는 연산입니다.<br>

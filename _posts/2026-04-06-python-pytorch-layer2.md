@@ -11,12 +11,6 @@ tags: [Layer, nn.MaxPool2d, nn.AvgPool2d, nn.AdaptiveAvgPool2d, nn.AdaptiveMaxPo
 
 [링크] <https://root0615.github.io/posts/python-pytorch-layer1/>
 
-## ⚠️ 공부 목적으로 미리 작성해놓은 글입니다. 
-Claude의 도움을 받아 작성했으므로 테스트 해보지 못한 코드이기에 틀릴 수 있다는 점 양해부탁드립니다.<br>
-만약 글을 읽으신다면, 감안하시고 참고만 하시길 부탁드립니다.<br>
-지속적으로 내용 확인하고 글을 수정할 생각입니다.<br>
-그리고 제가 이해한 내용을 쉽게 풀어쓰려 노력했습니다. <br>
-
 ## 🔍 nn.MaxPool2d
 지정한 윈도우 안에서 최댓값만 뽑아 공간 크기를 줄이는 레이어입니다.<br>
 CNN에서 가장 널리 쓰이는 다운샘플링 방법이에요.<br>

@@ -13,12 +13,6 @@ tags: [Layer, nn.BatchNorm2d, nn.LayerNorm, nn.GroupNorm, nn.InstanceNorm2d]
 [링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
 [링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
 
-## ⚠️ 공부 목적으로 미리 작성해놓은 글입니다. 
-Claude의 도움을 받아 작성했으므로 테스트 해보지 못한 코드이기에 틀릴 수 있다는 점 양해부탁드립니다.<br>
-만약 글을 읽으신다면, 감안하시고 참고만 하시길 부탁드립니다.<br>
-지속적으로 내용 확인하고 글을 수정할 생각입니다.<br>
-그리고 제가 이해한 내용을 쉽게 풀어쓰려 노력했습니다. <br>
-
 ## 🔍 nn.BatchNorm2d
 미니배치 전체에 걸쳐 채널별로 정규화합니다.<br>
 CNN에서 가장 널리 쓰이는 정규화 레이어입니다.<br>
@@ -302,7 +296,6 @@ class StyleTransferBlock(nn.Module):
 
 ## 🔚 마치며(잡소리)
 지금 현재 Layer들을 공부하면서 그래도 이해가 안되는 부분이 많습니다.<br>
-AI에게 물어보기에는 좀 한계가 있는 듯 합니다.<br>
 뭔가 딱 이해하기 쉽게 누가 설명 좀 해줬으면 좋겠어요 ㅠ.<br>
 아무튼 오늘도 화이팅입니다!!<br>
 
