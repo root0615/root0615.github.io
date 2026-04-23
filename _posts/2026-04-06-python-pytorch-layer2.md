@@ -5,11 +5,9 @@ categories: [Pytorch]
 tags: [Layer, nn.MaxPool2d, nn.AvgPool2d, nn.AdaptiveAvgPool2d, nn.AdaptiveMaxPool2d, nn.MaxPool1d, nn.AvgPool1d]
 ---
 
-## 💬 인삿말(잡소리)
-첫번째 Linear와 Convolution 레이어에 대한 글 이후 두번째 글입니다.<br>
-첫번째 글이 궁금하시다면 아래 링크로 남기겠습니다.<br>
+[링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
+[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>
 
-[링크] <https://root0615.github.io/posts/python-pytorch-layer1/>
 
 ## 🔍 nn.MaxPool2d
 지정한 윈도우 안에서 최댓값만 뽑아 공간 크기를 줄이는 레이어입니다.<br>

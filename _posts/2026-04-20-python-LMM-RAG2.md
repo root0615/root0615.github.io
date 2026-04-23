@@ -5,11 +5,6 @@ categories: [Python]
 tags: [LLM, RAG, Chunking, Chromadb, SentenceTransformer]
 ---
 
-## 💬 인삿말(잡소리)
-LLM에 이어서 RAG로 넘어가보겠습니다.<br>
-1편에서 봤다시피, RAG는 LLM 모델이 학습하지 못한 부분을 내가 직접 데이터를 구해서 학습하는거라고 말씀드렸습니다.<br>
-그래서 오늘은 이상탐지 모델의 관련 텍스트를 데이터베이스에 넣고 질문하면, 관련 내용을 찾아서 LLM이 답하는 방법을 간단하게 해보겠습니다.<br>
-
 [1편]<https://root0615.github.io/posts/python-LMM-RAG1/><br>
 
 ## 🔍 RAG(Retrieval-Augmented Generation, 검색 증강 생성)이 무엇이냐?

@@ -5,15 +5,8 @@ categories: [Pytorch]
 tags: [Layer, nn.Linear, nn.Conv1d, nn.Conv2d, nn.Conv3d, nn.ConvTranspose2d]
 ---
 
-## 💬 인삿말(잡소리 부터 시작)
-항상 딥러닝 Layer를 구성할 때 거의 Claude나 GPT의 힘을 빌리고 있습니다.<br>
-그래서 그런지 Layer에 대한 기본적인 지식 개념이 상당히 부족한 것을 많이 느끼고 있어 공부하고 정리할 필요가 있다고 생각합니다.<br>
-그래서 이번 글에서는 Pytorch에서 사용하는 Layer들의 사용방법을 한번 파헤치고자 글을 작성합니다.<br>
-제가 모르는 Layer를 다루지 않을 수도 있는 점 참고 부탁드립니다.<br>
-아! 검색하고 작성하는 데 있어 정확하지 않은 정보가 있을 수 있으니 이것도 참고 바랍니다.<br>
-마지막으로 혹시 틀린 부분이 있다면, 말씀해주시면 매우 감사하겠습니다.<br>
-Pytorch의 torch.nn 모듈에서 제공하는 Linear와 Convolutional 레이어만 먼저 알아보겠습니다.<br>
-다른 건 다음 게시물에 작성하려고 합니다<br>
+[링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
+[링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>
 
 ## 🔍 nn.Linear
 완전 연결층(Fully Connected Layer) -- 입력의 모든 뉴런이 출력의 모든 뉴런과 연결됩니다.

@@ -5,11 +5,6 @@ categories: [Pytorch]
 tags: [Layer, nn.BatchNorm2d, nn.LayerNorm, nn.GroupNorm, nn.InstanceNorm2d]
 ---
 
-## 💬 인삿말(잡소리)
-이번에는 Normalization 레이어들을 살펴보겠습니다.<br>
-누가 이 레이어는 뭐하는 녀석이야? 라고 물어보면 답이 나와야하는데 저는 아직 멀었네요.<br>
-파이토치 레이어들의 개념정리는 아래에 링크로 만들어 놓겠습니다.<br>
-
 [링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
 [링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
 
