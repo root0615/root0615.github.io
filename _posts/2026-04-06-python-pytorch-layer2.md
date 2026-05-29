@@ -189,18 +189,5 @@ text_model = nn.Sequential(
 )
 ```
 
-## 🔚 마치며(잡소리)
-넵, Pooling 레이어들을 알아봤습니다.<br>
-글을 쓰면서 생각이 드는 건 과연 내가 이걸 또 볼까??<br>
-그냥 다시 AI한테 물어보고 코딩하면 될 것 같은데?... 그럼 이렇게 쓰는 의미가 있나??<br>
-이러한 의구심이 들었습니다.<br>
-그런데 가끔 Claude나 GPT에게 물어보면 제가 이해할 수 없는 답변이 오는 경우가 있더라구요.<br>
-그래서 이걸 좀 더 쉽게 설명해줄 수는 없나? 하고 다시 물어보면 그래도 이해되지 않았습니다.<br>
-그냥 제가 지식이 너무 바닥이다보니 쉽게 설명한다 했는데 이해가 안가는거죠 ㅋㅋㅋ<br>
-이렇게 글을 작성해놓고 이해한 내용으로 글을 쓰다보면 머릿속에 각인되지 않을까 싶습니다.<br>
-오늘도 열심히 사시느라 고생이 많으십니다.<br>
-모든일 잘 풀리길 기도해드릴게요!<br>
-
-
 [링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
 [링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>

@@ -306,10 +306,5 @@ generator = nn.Sequential(
 주의 — Checkerboard 아티팩트: ConvTranspose2d는 격자 무늬 노이즈가 생길 수 있습니다.<br>
 이를 피하려면 nn.Upsample(scale_factor=2, mode='bilinear') + nn.Conv2d 조합으로 대체하는 방법도 자주 사용됩니다.
 
-## 🔚 마치며(잡소리)
-다른 레이어도 정리해서 글을 올릴 예정입니다.<br>
-보시고 도움이 되었으면 좋겠습니다.<br>
-오늘도 화이팅입니다!!<br>
-
 [링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
 [링크3] Normalization <https://root0615.github.io/posts/python-pytorch-layer3/>

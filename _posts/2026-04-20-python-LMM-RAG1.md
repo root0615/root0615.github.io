@@ -248,7 +248,5 @@ messages 리스트 (매 요청마다 통째로 전송)
 ## 🔚 마치며(잡소리)
 일단 LLM API를 이용해서 마치 챗봇과 같은 결과를 확인했습니다.<br>
 이제 2편에서 RAG에 대한 글을 올려보겠습니다.<br>
-틀린 내용이 있다면 항상 말씀부탁드립니다.<br>
-오늘도 화이팅입니다!!<br>
 
 [RAG]<https://root0615.github.io/posts/python-LMM-RAG2/><br>

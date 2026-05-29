@@ -288,10 +288,5 @@ class StyleTransferBlock(nn.Module):
         return self.relu(x)  # (B, C, H, W)
 ```
 
-## 🔚 마치며(잡소리)
-지금 현재 Layer들을 공부하면서 그래도 이해가 안되는 부분이 많습니다.<br>
-뭔가 딱 이해하기 쉽게 누가 설명 좀 해줬으면 좋겠어요 ㅠ.<br>
-아무튼 오늘도 화이팅입니다!!<br>
-
 [링크1] Linear & Convolutional <https://root0615.github.io/posts/python-pytorch-layer1/><br>
 [링크2] Pooling <https://root0615.github.io/posts/python-pytorch-layer2/><br>
