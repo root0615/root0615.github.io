@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: bugCatchMe # the main title
 
-tagline: 어쩌겠어요 해야하는걸... # it will display as the subtitle
+tagline: 가만히 있는 것보다 뭐라도 해보는게 맞다 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
