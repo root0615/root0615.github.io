@@ -1,5 +1,5 @@
 ---
-title: "[ML/DL] 이상치 탐지 모델 개념 정리"
+title: "이상치 탐지 모델 개념 정리"
 date: 2026-04-16
 categories: [ML/DL]
 tags: [Isolation Forest, OCSVM, Autoencoder, LSTM AE, CNN AE]

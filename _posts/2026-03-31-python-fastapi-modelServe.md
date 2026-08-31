@@ -1,5 +1,5 @@
 ---
-title: "[Python] 간단하게 FastAPI로 Model Serving 해보기"
+title: "간단하게 FastAPI로 Model Serving 해보기"
 date: 2026-03-31
 categories: [Python]
 tags: [FastAPI, Model Serving, CNNAutoencoder, Uvicorn, Pyinstaller]

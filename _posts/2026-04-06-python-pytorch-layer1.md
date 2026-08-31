@@ -1,5 +1,5 @@
 ---
-title: "[Pytorch] 레이어 정리1 Linear 그리고 Convolutional"
+title: "레이어 정리1 Linear 그리고 Convolutional"
 date: 2026-04-06
 categories: [Pytorch]
 tags: [Layer, nn.Linear, nn.Conv1d, nn.Conv2d, nn.Conv3d, nn.ConvTranspose2d]

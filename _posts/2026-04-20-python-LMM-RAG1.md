@@ -1,5 +1,5 @@
 ---
-title: "[Python] LLM API 간단하게 사용해보기"
+title: "LLM API 간단하게 사용해보기"
 date: 2026-04-20
 categories: [Python]
 tags: [LLM, RAG, Groq]

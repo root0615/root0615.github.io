@@ -1,5 +1,5 @@
 ---
-title: "[Pytorch] 레이어 정리2 Pooling Layer"
+title: "레이어 정리2 Pooling Layer"
 date: 2026-04-06
 categories: [Pytorch]
 tags: [Layer, nn.MaxPool2d, nn.AvgPool2d, nn.AdaptiveAvgPool2d, nn.AdaptiveMaxPool2d, nn.MaxPool1d, nn.AvgPool1d]

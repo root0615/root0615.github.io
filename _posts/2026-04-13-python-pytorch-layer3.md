@@ -1,5 +1,5 @@
 ---
-title: "[Pytorch] 레이어 정리3 Normalization Layer"
+title: "레이어 정리3 Normalization Layer"
 date: 2026-04-13
 categories: [Pytorch]
 tags: [Layer, nn.BatchNorm2d, nn.LayerNorm, nn.GroupNorm, nn.InstanceNorm2d]

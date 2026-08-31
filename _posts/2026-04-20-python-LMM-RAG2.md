@@ -1,5 +1,5 @@
 ---
-title: "[Python] RAG, Chunking, Chromadb, SentenceTransformer 사용 기록"
+title: "RAG, Chunking, Chromadb, SentenceTransformer 사용 기록"
 date: 2026-04-20
 categories: [Python]
 tags: [LLM, RAG, Chunking, Chromadb, SentenceTransformer]
