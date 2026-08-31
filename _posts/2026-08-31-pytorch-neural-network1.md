@@ -9,9 +9,9 @@ tags: [Neural Network, Activation Function, Linear, Sigmoid, Tanh, ReLU, Softmax
 사람의 뇌가 정보를 처리하는 방식을 본떠서 만든, 컴퓨터가 데이터에서 패턴을 스스로 찾아내도록 하는 계산 구조.<br>
 
 ![인공신경망](/assets/img/ML_DL/artificial_neural_network.png)<br>
-<출처> https://blog.naver.com/qkrdnjsrl0628/222509156567
+<출처> https://blog.naver.com/qkrdnjsrl0628/222509156567<br>
 
-### 📝 설명 <br>
+### 📝 설명
 우리 뇌속에는 뉴런(신경세포)이 수십억 개 있고, 이 뉴런들이 서로 연결되어 신호를 주고 받으면서 "이건 고양이다.", "이건 위험하다" 같은 판단을 내린다.<br>
 인공신경망은 이걸 수학적으로 흉내낸 거라고 할 수 있다.<br>
 
@@ -189,5 +189,3 @@ Tanh는 아무리 큰 값이 들어와도 결과를 항상 -1 ~ +1 사이로 눌
 그래서 시간스텝을 아무리 반복해도 값이 -1 ~ +1 범위 안에서만 움직이니까, 폭발할 수 없는 구조다.<br>
 이런 이유로 LSTM은 기본 설계 자체가 원래 Tanh(그리고 게이트는 Sigmoid)를 쓰도록 만들어져있다.<br>
 결론적으로 LSTM은 Tanh를 활성화 함수로 사용하는 것이 맞다.<br>
-
-[2편]
