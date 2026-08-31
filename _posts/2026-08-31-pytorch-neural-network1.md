@@ -9,7 +9,7 @@ tags: [Neural Network, Activation Function, Linear, Sigmoid, Tanh, ReLU, Softmax
 사람의 뇌가 정보를 처리하는 방식을 본떠서 만든, 컴퓨터가 데이터에서 패턴을 스스로 찾아내도록 하는 계산 구조.<br>
 
 ![인공신경망](/assets/img/ML_DL/artificial_neural_network.png)<br>
-<출처> https://blog.naver.com/qkrdnjsrl0628/222509156567<br>
+[출처] https://blog.naver.com/qkrdnjsrl0628/222509156567<br>
 
 ### 📝 설명
 우리 뇌속에는 뉴런(신경세포)이 수십억 개 있고, 이 뉴런들이 서로 연결되어 신호를 주고 받으면서 "이건 고양이다.", "이건 위험하다" 같은 판단을 내린다.<br>
@@ -116,7 +116,7 @@ Sigmoid(시그모이드), Tanh(하이퍼볼릭 탄젠트), ReLU(렐루), Softmax
 
 ### 🔍 torch.nn.Sigmoid
 ![시그모이드](/assets/img/ML_DL/sigmoid.png)<br>
-<출처> https://velog.io/@metterian/%EB%8C%80%EC%B2%B4-%EC%8B%9C%EA%B7%B8%EB%AA%A8%EC%9D%B4%EB%93%9CSigmoid-%ED%95%A8%EC%88%98%EA%B0%80-%EB%AD%94%EB%8D%B0
+[출처] https://velog.io/@metterian/%EB%8C%80%EC%B2%B4-%EC%8B%9C%EA%B7%B8%EB%AA%A8%EC%9D%B4%EB%93%9CSigmoid-%ED%95%A8%EC%88%98%EA%B0%80-%EB%AD%94%EB%8D%B0
 <br>
 
 - 입력 x가 어떤 실수든 (음수든, 양수든) 결과값을 항상 0과 1 사이로 눌러 담아주는 함수
@@ -129,7 +129,7 @@ Sigmoid(시그모이드), Tanh(하이퍼볼릭 탄젠트), ReLU(렐루), Softmax
 
 ### 🔍 torch.nn.Tanh
 ![하이퍼볼릭탄젠트](/assets/img/ML_DL/hyperbolic_tansent.png)<br>
-<출처> https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC:Hyperbolic_Tangent.svg
+[출처] https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC:Hyperbolic_Tangent.svg
 <br>
 
 하이퍼볼릭 탄젠트는 결과 범위가 -1 ~ +1 이다.
@@ -142,7 +142,7 @@ Sigmoid(시그모이드), Tanh(하이퍼볼릭 탄젠트), ReLU(렐루), Softmax
 
 ### 🔍 torch.nn.ReLU
 ![렐루](/assets/img/ML_DL/relu.png)<br>
-<출처> https://m.blog.naver.com/riverrun17/221901319498
+[출처] https://m.blog.naver.com/riverrun17/221901319498
 <br>
 
 가장 단순한 활성화 함수
