@@ -54,16 +54,15 @@ layer = nn.Linear(in_features=2, out_features=1)
 
 ### ❓ 이해를 돕기 위해 좀 더 붙이자면
 만약 `out_features`가 `1`이 아닌 여러개, 예를 들어 `3`이라면 해당 수식이 출력 누련 개수만큼 반복된다.<br>
-$$
-y_1 = W_{11}x_1 + W_{12}x_2 + b_1 \\
-y_2 = W_{21}x_1 + W_{22}x_2 + b_2 \\
-y_3 = W_{31}x_1 + W_{32}x_2 + b_3 
-$$
 
-그리고 이걸 `행렬곱(matrix multiplication)`으로 한번에 처리한다.
-$$
-y = xW^T + b
-$$
+y<sub>1</sub> = W<sub>11</sub>x<sub>1</sub> + W<sub>12</sub>x<sub>2</sub> + b<sub>1</sub><br>
+y<sub>2</sub> = W<sub>21</sub>x<sub>1</sub> + W<sub>22</sub>x<sub>2</sub> + b<sub>2</sub><br>
+y<sub>3</sub> = W<sub>31</sub>x<sub>1</sub> + W<sub>32</sub>x<sub>2</sub> + b<sub>3</sub><br>
+
+그리고 이걸 `행렬곱(matrix multiplication)`으로 한번에 처리한다.<br>
+
+y = xW<sup>T</sup> + b <br>
+
 out_features가 50개든 100개든 이 수식 하나로 처리된다.<br>
 그냥 `nn.Linear(2, 50)하면 파이토치가 내부적으로 행렬 곱으로 병렬처리`한다.
 
