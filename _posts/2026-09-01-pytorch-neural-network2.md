@@ -185,7 +185,8 @@ class MyModel(nn.Module):
 자동으로 추적하는 시스템을 갖고 있는데, 이 초기화 코드가 먼저 실행되어야 그 추적 시스템이 세팅된다.<br>
 이게 없으면 self.fc1 = nn.Linear(10, 20)을 써도 파이토치가 이걸 학습해야할 부품으로 인식을 못한다.<br>
 
-- nn.Module이 자동으로 해주는 것들(핵심)
+📌 nn.Module이 자동으로 해주는 것들(핵심) <br>
+
 ```python
 model = MyModel()
 
@@ -197,6 +198,7 @@ model.train()           # 학습 모드로 전환
 ```
 
 ### 💻 코드
+
 ```python
 import torch.nn as nn
 
