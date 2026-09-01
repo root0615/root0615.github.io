@@ -2,7 +2,7 @@
 title: "인공신경망(Artificial Neural Network)과 활성화 함수(Activation Function)"
 date: 2026-08-31
 categories: [Pytorch]
-tags: [Neural Network, Activation Function, Linear, Sigmoid, Tanh, ReLU, Softmax, Sequential, Module]
+tags: [Neural Network, Activation Function, nn.Linear, nn.Sigmoid, nn.Tanh, nn.ReLU, nn.Softmax]
 ---
 
 ## 🔍 인공신경망(Artificial Neural Network)
