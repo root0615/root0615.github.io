@@ -43,7 +43,7 @@ $$
 
 기울기에 따른 그래프를 확인해보면,<br>
 
-![경사하강1](/assets/img/ML_DL/gradient_descent.png){: width="400"}
+![경사하강1](/assets/img/ML_DL/gradient_descent.png){: width="400"}<br>
 
 위와 같은 기울기를 가질 수 있는데 2가지 경우로<br>
 1. g(기울기)가 양수(g > 0)이면:
@@ -114,9 +114,7 @@ $$
 이것이 <mark>**경사 하강(Gradient Descent)**</mark>이다.<br>
 실제로 이게 맞는지 확인해보기 위해 그래프와 수식을 다시 확인해보면,<br>
 
-<p align="center">
-    <img src="../assets/img/ML_DL/gradient_descent2.png" alt="경사하강2" width="400">
-</p>
+![경사하강2](/assets/img/ML_DL/gradient_descent2.png){: width="400"}
 
 $$
 \Delta w = - \eta \frac{dL}{dw}
@@ -140,26 +138,23 @@ $$
 최종 목표는 결국 `Loss가 가장 낮은 최저점에 수렴`해야한다.<br>
 
 #### 📌 Learning Rate가 너무 작을 경우<br>
-<p align="center">
-    <img src="../assets/img/ML_DL/small_learning_rate.png" alt="너무 작은 학습률" width="400">
-</p>
+
+![너무 작은 학습률](/assets/img/ML_DL/small_learning_rate.png){: width="400"}<br>
 
 그래프와 같이 가중치 변화량. 그러니까 한 걸음의 보폭이 너무 좁아 최저점에 도달하는 시간이 너무 오래걸린다.<br>
 다시 말하면, `모델이 학습하는데까지 매우 긴 시간이 걸리게 된다.`<br>
 
 #### 📌 Learning Rate가 너무 클 경우<br>
-<p align="center">
-    <img src="../assets/img/ML_DL/big_learning_rate.png" alt="너무 큰 학습률" width="400">
-</p>
+
+![너무 큰 학습률](/assets/img/ML_DL/big_learning_rate.png){: width="400"}<br>
 
 이번엔 가중치 변화량이 너무 커서 한 보폭이 최저점을 지나쳐간다.<br>
 그래프 상에서는 처음 스텝이 최저점을 지나쳐서 기울기가 양수로 바뀌었기에 반대 방향으로 가중치가 줄어드는 것을 확인할 수 있다.<br>
 만약 학습률이 더 크다면 Loss가 오히려 계속 커지며 발산할 수 있다.<br>
 
 #### 📌 Learning Rate가 적당할 경우<br>
-<p align="center">
-    <img src="../assets/img/ML_DL/normal_learning_rate.png" alt="적당한 학습률" width="400">
-</p>
+
+![적당한 학습률](/assets/img/ML_DL/normal_learning_rate.png){: width="400"}<br>
 
 가중치 변화량이 적당하여 모델의 학습속도는 빠르고 안정적인 성능이 좋은 결과를 만들어낼 수 있다.<br>
 
@@ -205,9 +200,9 @@ $$
 식을 풀어쓰면 아래와 같다.<br>
 
 $$
-w_1 \larr w_1 - \eta \cdot \frac{\partial L}{\partial w_1}
+w_1 \leftarrow w_1 - \eta \cdot \frac{\partial L}{\partial w_1}
 \\
-w_2 \larr w_2 - \eta \cdot \frac{\partial L}{\partial w_2}
+w_2 \leftarrow w_2 - \eta \cdot \frac{\partial L}{\partial w_2}
 \\
 \cdot \\ \cdot \\ \cdot
 $$
@@ -217,7 +212,7 @@ $$
 - `optimizer.step()` &rarr; 모든 가중치에 대해 `w = w - lr * w.grad` 실행
 
 이제 위의 식으로 기울기를 계산하는 3가지 경사하강 방법을 알아보자.<br>
-모두 같은 경사하강 식 $w \larr w - \eta \cdot \nabla _w L$ 을 쓰지만, 차이는 하나이다.<br>
+모두 같은 경사하강 식 $w \leftarrow w - \eta \cdot \nabla _w L$ 을 쓰지만, 차이는 하나이다.<br>
 `"기울기를 계산할 때 데이터를 몇개 보느냐"`이다.<br>
 
 비유를 먼저 하자면, 내리막 방향을 "설문조사"로 정한다고 생각해보자.<br>
@@ -245,7 +240,7 @@ $$
 Stochastic은 "확률적/무작위"라는 뜻.<br>
 
 $$
-w \larr w - \eta \cdot \nabla _w L_i
+w \leftarrow w - \eta \cdot \nabla _w L_i
 $$
 
 장점은 한번의 업데이트가 매우 빠르고 메모리도 적게 든다.<br>
@@ -303,9 +298,7 @@ Mini-batch를 사용하면 이 안장점을 벗어날 수 있는 장점이 되�
 - 말의 앞뒤 방향으로 보면: 양쪽이 올라가 있으니 내가 가장 낮은 곳
 - 말의 좌우 방향으로 보면: 양쪽이 내려가 있으니 내가 가장 높은 곳
 
-<p align="center">
-    <img src="../assets/img/ML_DL/saddlepoint.png" alt="안장점 그래프" width="400">
-</p>
+![안장점 그래프](/assets/img/ML_DL/saddlepoint.png){: width="400"}<br>
 [출처] https://en.wikipedia.org/wiki/Saddle_point <br>
 
 위의 그림과 같이 기울기가 0이니 다내려왔다고 생각하여 멈추거나, 근처 기울기가 아주 작아 거의 안 움직이는 정체 구간이 생긴다.<br>
