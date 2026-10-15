@@ -417,3 +417,30 @@ L = (0.4)^2 = 0.16
 $$
 
 위와 같이 **Loss가 4 &rarr; 0.16으로 줄어드는 것** 을 확인할 수 있다.
+
+### 📄 코드와 1:1 대응
+
+```python
+optimizer.zero_grad()               # 이전 기울기 지우기
+output = model(x)                   # 1. forward pass
+loss = criterion(output, target)    # 1. forward (Loss 까지)
+loss.backward()                     # 2. backward pass: 모든 w의 기울기 계산
+optimizer.step()                    # 3. 경사하강 업데이트
+```
+
+`zero_grad()`가 필요한 이유는 Pytorch가 `.grad`에 기울기를 덮어쓰지 않고 누적해서 더하기 때문에 안지우면 이전 스텝 기울기가 섞여 엉뚱한 방향으로 업데이트 된다.<br>
+
+### 📌 알아두면 좋은 참고사항
+backward에서 기울기를 계산하려면 forward 때의 중간값(위 예시의 x, y 같은 것)이 필요.<br>
+그래서 학습 중에는 Pytorch가 자체적으로 forward의 중간결과를 전부 메모리에 저장해 둔다.<br>
+그렇기에 배치 크기를 키우면 GPU 메모리가 터지는 주된 이유가 된다.<br>
+
+반대로 추론(평가)할 때는 backward가 필요 없으니 저장할 이유도 없다.<br>
+
+```python
+model.eval()
+with torch.no_grad():   # 중간값 저장 안함 > 메모리 절약, 속도 향상
+    output = model(x)
+```
+
+평가 코드에서 torch.no_grad()를 빼먹으면 결과는 같아도 메모리를 불필요하게 많이 쓰므로, 추론 시에는 항상 넣어주는 것이 효율적이다. <br>
