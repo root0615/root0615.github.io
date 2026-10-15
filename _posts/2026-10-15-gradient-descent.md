@@ -42,7 +42,7 @@ g(기울기) = \frac{\Delta y \, (y의 \, 변화량)}{\Delta x \, (x의 \, 변�
 
 기울기에 따른 그래프를 확인해보면,<br>
 <p align="center">
-    <img src="../assets/img/ML_DL/gradient_descent.png" width="400">
+    <img src="/assets/img/ML_DL/gradient_descent.png" alt="학습률 그래프" width="400">
 </p>
 
 위와 같은 기울기를 가질 수 있는데 2가지 경우로<br>
@@ -112,7 +112,7 @@ w_{i+1} = w_i - \eta \frac{dL}{dw}
 실제로 이게 맞는지 확인해보기 위해 그래프와 수식을 다시 확인해보면,<br>
 
 <p align="center">
-    <img src="../assets/img/ML_DL/gradient_descent2.png" width="400">
+    <img src="../assets/img/ML_DL/gradient_descent2.png" alt="경사하강2" width="400">
 </p>
 
 ```math
@@ -137,7 +137,7 @@ w_{i+1} = w_i - \eta \frac{dL}{dw}
 
 #### 📌 Learning Rate가 너무 작을 경우<br>
 <p align="center">
-    <img src="../assets/img/ML_DL/small_learning_rate.png" width="400">
+    <img src="../assets/img/ML_DL/small_learning_rate.png" alt="너무 작은 학습률" width="400">
 </p>
 
 그래프와 같이 가중치 변화량. 그러니까 한 걸음의 보폭이 너무 좁아 최저점에 도달하는 시간이 너무 오래걸린다.<br>
@@ -145,7 +145,7 @@ w_{i+1} = w_i - \eta \frac{dL}{dw}
 
 #### 📌 Learning Rate가 너무 클 경우<br>
 <p align="center">
-    <img src="../assets/img/ML_DL/big_learning_rate.png" width="400">
+    <img src="../assets/img/ML_DL/big_learning_rate.png" alt="너무 큰 학습률" width="400">
 </p>
 
 이번엔 가중치 변화량이 너무 커서 한 보폭이 최저점을 지나쳐간다.<br>
@@ -154,7 +154,7 @@ w_{i+1} = w_i - \eta \frac{dL}{dw}
 
 #### 📌 Learning Rate가 적당할 경우<br>
 <p align="center">
-    <img src="../assets/img/ML_DL/normal_learning_rate.png" width="400">
+    <img src="../assets/img/ML_DL/normal_learning_rate.png" alt="적당한 학습률" width="400">
 </p>
 
 가중치 변화량이 적당하여 모델의 학습속도는 빠르고 안정적인 성능이 좋은 결과를 만들어낼 수 있다.<br>
@@ -300,7 +300,7 @@ Mini-batch를 사용하면 이 안장점을 벗어날 수 있는 장점이 되�
 - 말의 좌우 방향으로 보면: 양쪽이 내려가 있으니 내가 가장 높은 곳
 
 <p align="center">
-    <img src="../assets/img/ML_DL/saddlepoint.png" width="400">
+    <img src="../assets/img/ML_DL/saddlepoint.png" alt="안장점 그래프" width="400">
 </p>
 [출처] https://en.wikipedia.org/wiki/Saddle_point <br>
 
