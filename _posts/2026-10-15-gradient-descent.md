@@ -22,12 +22,13 @@ Pytorch에서 학습 루프의 `loss.backward()`와 `optimizer.step()`이 바로
 4. 땅이 평평해질 때까지 반복
 
 이걸 딥러닝에 대입하면:<br>
+
 |비유|딥러닝|
 |---|---|
 |내 위치|모델의 파라미터(가중치) 값|
 |높이|Loss(틀린 정도)|
-|발밑 기울기|기울기(gradient) -- `loss.backward()`가 계산|
-|한 걸음 내려가기|파라미터 업데이트 -- `optimizer.step()`이 수행|
+|발밑 기울기|기울기(gradient) &larr; `loss.backward()`가 계산|
+|한 걸음 내려가기|파라미터 업데이트 &larr; `optimizer.step()`이 수행|
 |보폭|학습률(learning rate)|
 |골짜기 바닥|loss가 가장 작은 지점|
 
